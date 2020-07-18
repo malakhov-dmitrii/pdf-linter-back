@@ -59,7 +59,9 @@ def export_as_json(pdf_path):
 
     if doc_content_correct == False:
         # print("ОШИБКА - Нет или неправильная страница 'Содержание'")
-        data['errors'] = ["ОШИБКА - Нет или неправильная страница 'Содержание'"]
+        data['errors'] = [
+            "Содержание тома; Лист: 4. Основная надпись: графа (1) - шифр должен соответствовать шифру, указанному на тит. листе, и добавляется через дефис прописная буква С"
+        ]
 
     # with open(json_path, 'w', encoding="utf-8") as fh:
     #     json.dump(data, fh, ensure_ascii=False)

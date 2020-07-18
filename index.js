@@ -1,19 +1,4 @@
-// var express = require("express");
-// var app = express();
 const fetch = require("node-fetch");
-
-// app.post("/", function (req, res) {
-// fetch("http://127.0.0.1:5000/?file=pdf-to-lint-example.pdf")
-//   .then((r) => r.json())
-//   .then((r) => {
-//     res.json(r);
-//   });
-// });
-
-// app.listen(5001, function () {
-//   console.log("Example app listening on port 5001!");
-// });
-
 const express = require("express");
 const fileUpload = require("express-fileupload");
 const cors = require("cors");
